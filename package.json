@@ -1,0 +1,8 @@
+{
+  "scripts": {
+      "install" :"flutter pub get",
+      "right" : "flutter packages pub publish --dry-run",
+      "upload" :"node ./nodescript.mjs && flutter packages pub publish --server=https://pub.dartlang.org -f",
+      "android" : ""
+  }
+}
